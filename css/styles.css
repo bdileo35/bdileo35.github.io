@@ -7,11 +7,20 @@
   font-size: x-large;
   color: rgba(241, 230, 22, 0.89);
 }
-
+.mailBoletas{
+  display: flex;
+  justify-content: space-around;
+ }
 .pwebmail {
   padding-left: 80px;
 }
 
+a:link{
+  color: rgb(13, 2, 119);
+}
+a:visited{
+  color: rgb(78, 8, 118);
+}
 .boleta {
   text-align: right;
   padding-left: 680px;
@@ -72,16 +81,11 @@ div.nos {
 }
 .main-article {
   margin-top: 2rem;
-  /*margin-bottom: 8rem;*/
-  /*padding-bottom: 2rem;*/
-  /*border-top: 1px solid lightslategray;
-  
-  border-bottom: 1px solid lightslategray;
-*/
+
 }
 
 #Contacto {
-  background-image: url("../assets/Camino1.jpg");
+  background-image: url("../assets/slide1.jpeg");
   background-size: cover;
   height: 750px;
   display: flex;
@@ -90,7 +94,7 @@ div.nos {
 }
 
 #Reclamos {
-  background-image: url("../assets/Camino1.jpg");
+  background-image: url("../assets/slide3sm.jpg");
   background-size: cover;
   height: 750px;
   display: flex;
@@ -99,7 +103,8 @@ div.nos {
 }
 
 #Reclamos form {
-  background: linear-gradient(140deg, rgba(150, 204, 211, 0.6) 10%, rgba(179, 210, 214, 0.6) 45%, rgba(202, 213, 215, 0.6) 100%);
+  background: linear-gradient(140deg, rgba(150, 204, 211, 0.7) 10%, rgba(179, 210, 214, 0.7) 45%, rgba(202, 213, 215, 0.7) 100%);
+  font-weight:500;
   padding: 2rem;
   box-shadow: 6px 6px 10px;
   border-radius: 2%;
@@ -111,6 +116,7 @@ div.nos {
 
 #Contacto form {
   background: linear-gradient(140deg, rgb(150, 204, 211, 0.6) 10%, rgb(179, 210, 214, 0.6) 45%, rgb(202, 213, 215, 0.6) 100%);
+  font-weight:500;
   padding: 2rem;
   box-shadow: 6px 6px 10px;
   border-radius: 2%;
@@ -125,3 +131,58 @@ div.nos {
   column-gap: 0.5rem;
 
 }
+
+#nosotros {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  .main-title {
+  font-size: 48px;
+  color: #8e73e8;
+  text-align: center;
+  animation: pulse 1s ease-in-out infinite;
+  }
+
+  .team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .team-member {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+    width: 300px;
+  }
+
+  .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .team-member h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .team-member p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 0;
+  }
